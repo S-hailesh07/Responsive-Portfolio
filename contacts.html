@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Rubik", sans-serif;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        body {
+            background: #1f1f21;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 32px 15%;
+            background: transparent;
+            transition: all ease .45s;
+        }
+
+        .logo {
+            color: #fff;
+            font-size: 41px;
+            font-weight: 600;
+        }
+
+        .logo span {
+            color: #ffae00;
+        }
+
+        .navbar {
+            display: flex;
+        }
+
+        .navbar a {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #fff;
+            margin: 0 25px;
+            transition: all ease .50s;
+        }
+
+        .navbar a:hover {
+            color: #ffae00;
+        }
+
+        .navbar a.active {
+            color: #ffae00;
+        }
+
+        .menu-btn {
+            background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+            box-shadow: 0px 20px 40px #00000070;
+            border: 1px solid #3b3b3b;
+            padding: 10px 20px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        #menu-icon {
+            font-size: 28px;
+            margin-left: 10px;
+            z-index: 6;
+        }
+
+        .contact-section {
+            padding: 100px 15%;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #c3c3c3;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+    <!---Box Icons Links-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Header -->
+    <header>
+        <a href="#" class="logo"><span>S</span>hailesh</a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacts.html" class="active">Contacts</a></li>
+        </ul>
+        <div class="menu-btn">
+            <span>INTRO</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email:tiwarisakshi808@gmail.com</p>
+                <p>Phone:+91 9129846205</p>
+                <p>Address: Padri lalpur kanpur uttar pradesh India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Sakshi. All rights reserved.</p>
+    </footer>
+
+    <!-- ScrollReveal Library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
